@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr) ;
+            gap: 30px;
+        
+
+        }
+
+        .flex-grid{
+            color: blue;
+             background-color: antiquewhite;
+
+        }
+        @media (max-width:400px){
+            .box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr) ;
+            gap: 30px;
+
+        }
+        @media (min-width :401px){
+            .box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr) ;
+            gap: 30px;
+        }
+
+         @media (min-width :1000px){
+            .box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr) ;
+            gap: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1> Grids </h1>
+
+        <div class="box">
+
+       <div class="flex-grid">1</div>
+       <div class="flex-grid">2</div>
+       <div class="flex-grid">3</div>
+       <div class="flex-grid">4</div>
+       <div class="flex-grid">5</div>
+       <div class="flex-grid">6</div>
+       <div class="flex-grid">7</div>
+       <div class="flex-grid">8</div>
+       <div class="flex-grid" >9</div>
+
+       </div>
+       
+
+    </div>
+</body>
+</html>

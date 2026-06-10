@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+
+#id{
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+    background-image: url(https://sl.bing.net/c2rrLx8kmoC);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    color: red;
+}
+
+.form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+input{
+    border: solid blue;
+}
+
